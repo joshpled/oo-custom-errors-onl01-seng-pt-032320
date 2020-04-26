@@ -13,7 +13,7 @@ class Person
       else
         person.partner = self
       end
-    end
+    endf
 
   class PartnerError < StandardError
   end

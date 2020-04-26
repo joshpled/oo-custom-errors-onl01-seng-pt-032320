@@ -13,7 +13,8 @@ class Person
       else
         person.partner = self
       end
-    endf
+    end
+    
 
   class PartnerError < StandardError
     def message
